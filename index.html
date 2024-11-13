@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+
+<body>
+    <h1>TRIP TO SHAHPUR KAANGARA</h1>
+    <div>
+        <form action="form.php">
+            <input type="text" placeholder="Where are you going"><br>
+            <hr>
+            <input type="date" name="going" id="time">
+            <input type="datetime" name="going" id="datetime">
+            <label for="camels">
+                <input type="radio" value="5" name="camel" id="camels"> Camel
+            </label>
+            <label for="goats">
+                <input type="radio" value="3" name="goat" id="goats"> Goat
+            </label>
+            <label for="cows">
+                <input type="radio" value="8" name="cow" id="cows"> Cow
+            </label>
+            <label for="parkingstand">
+                <input type="radio" value="1" name="Parking stand" id="parkingstand"> Parking Stand
+            </label><br>
+            <textarea name="explain" id="explain" placeholder="why are you SHAHPUR KAANGARA and what" cols="30" rows="10"></textarea>
+            <select name="camel" id="camel">select your animal
+                <option value="camels">camel</option>
+                <option value="camels">goat</option>
+                <option value="camels">cow</option>
+                <option value="camel">hen</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
